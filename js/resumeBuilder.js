@@ -11,7 +11,7 @@ var bio = {
 	},
 	'welcomeMessage' : 'Welcome to my resume site',
 	'skills' : [ 'HTML5', 'CSS3', 'JavaScript', 'C++' ],
-	'biopic' : './images/fry.jpg'
+	'biopic' : './images/profile.jpg'
 }
 
 bio.display = function() {

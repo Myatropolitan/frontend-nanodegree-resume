@@ -15,7 +15,7 @@
 
 h1 {
   font-size: 40px;
-  color: #F5A623;
+  color: #c71585;
   line-height: 48px;
   display: inline;
 }
@@ -73,7 +73,7 @@ p {
 }
 
 a {
-  color: #1199C3;
+  color: #b0082;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -82,12 +82,12 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #F3F3F3;
+  color: #ff1493;
   line-height: 28px;
 }
 
 #skillsH3 {
-  color: #F5AE23;
+  color: #c71585;
   display: none;
 }
 
@@ -95,8 +95,16 @@ a {
   background-color: #F5AE23;
 }
 
+.connectMsg {
+  background-color: #d8bfd8;
+}
+
 .orange-text {
   color: #F5AE23;
+}
+
+.violet-text {
+  color: #c71585;
 }
 
 .white-text {
@@ -104,8 +112,13 @@ a {
   color: #FFFFFF;
 }
 
+.gray-text {
+  font-weight: bold;
+  color: #777777;
+}
+
 .gray {
-  background-color: #F3F3F3;
+  background-color: #f8f8ff;
   padding-bottom: 10px;
   clear:both;
 }
@@ -114,9 +127,17 @@ a {
   background-color: #4A4A4A;
 }
 
+.white {
+  background-color: #ffffff;
+}
+
+.whiteText {
+  color: #ffffff;
+}
+
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #ffffff;
 }
 
 .flex-box {
@@ -141,9 +162,11 @@ ul {
 
 .biopic {
   float: left;
-  padding: 10px;
+  padding: 0px;
+  margin: 10px;
   width: 200px;
   display: none;
+  border: 1px solid #888888;
 }
 
 img {
@@ -212,4 +235,9 @@ span {
   .biopic {
     display: block;
   }
+}
+
+.mapCity {
+  font-weight: bold;
+  color: #0000CD;
 }
