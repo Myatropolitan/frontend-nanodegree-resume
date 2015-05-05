@@ -1,0 +1,6 @@
+Resources Used in Project 2
+
+1.) CSS reference: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+2.) Google map developers: https://developers.google.com/maps/documentation/javascript/
+3.) Javascript Reference: http://www.w3schools.com/jsref/
+4.) Web Color Code: http://www.colordic.org/
