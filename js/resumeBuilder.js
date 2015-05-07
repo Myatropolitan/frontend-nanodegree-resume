@@ -50,7 +50,7 @@ var bio = {
 		if(bio.skills.length > 0){
 			$('#header').append(HTMLskillsStart);
 
-			for (skill in bio.skills)
+			for (var skill in bio.skills)
 			{
 				var formattedSkills = HTMLskills.replace('%data%', bio.skills[skill]);
 				$('#header').append(formattedSkills);
@@ -115,7 +115,7 @@ var education = {
 		if(education.onlineCourses.length > 0){
 			$('#education').append(HTMLonlineClasses);
 		}
-		for(course in education.onlineCourses){
+		for(var course in education.onlineCourses){
 			$('#education').append(HTMLschoolStart);
 
 			var formattedTitle = HTMLonlineTitle.replace('%data%', education.onlineCourses[course].title);
@@ -152,7 +152,7 @@ var work = {
 		}
 	],
 	"display": function(){
-		for(job in work.jobs){
+		for(var job in work.jobs){
 			$('#workExperience').append(HTMLworkStart);
 
 			var formattedEmployer = HTMLworkEmployer.replace('%data%', work.jobs[job].employer);
@@ -183,7 +183,7 @@ var projects = {
 		}
 	],
 	"display": function(){
-		for(project in projects.projects){
+		for(var project in projects.projects){
 			$('#projects').append(HTMLprojectStart);
 
 			var formattedProjectTitle = HTMLprojectTitle.replace('%data%', projects.projects[project].title);
